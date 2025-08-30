@@ -88,6 +88,8 @@ Honeypot/
 ├── .gitignore     # Ignore sensitive files
 ├── README.md      # Project documentation
 └── requirements.txt
+```
+
 
 🔒 Security Notes
 
