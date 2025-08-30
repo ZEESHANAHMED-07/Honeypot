@@ -67,3 +67,55 @@ SSH keys remain local only inside keys/ (not pushed to GitHub).
 
 Update src/config.py (if provided) to set ports, services, etc.
 
+▶️ Usage
+
+Run the honeypot:
+```bash
+
+
+python src/honeypot.py
+```
+Logs will be generated under:
+```text
+logs/
+```
+📂 Project Structure
+Honeypot/
+├── src/           # Honeypot source code
+├── logs/          # Attack logs (ignored in Git)
+├── keys/          # Local SSH keys (ignored in Git)
+├── .gitignore     # Ignore sensitive files
+├── README.md      # Project documentation
+└── requirements.txt
+
+🔒 Security Notes
+
+⚠️ Important:
+
+Run this only in a controlled environment (VM, VPS).
+
+Never expose sensitive logs or private keys publicly.
+
+Use for research and educational purposes only.
+
+🤝 Contributing
+
+Pull requests are welcome.
+For major changes, please open an issue first to discuss your idea.
+
+📜 License
+
+MIT
+
+```yaml
+---
+
+---
+
+✅ Now it will render beautifully on GitHub with code blocks for commands, tree structures, and diagrams.  
+
+Do you want me to also add **badges** (like Python version, license, repo size, etc.) at the top of your README to make it look extra professional?
+```
+
+
+
