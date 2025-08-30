@@ -79,7 +79,8 @@ Logs will be generated under:
 ```text
 logs/
 ```
-📂 Project Structure
+## 📂 Project Structure
+```text
 Honeypot/
 ├── src/           # Honeypot source code
 ├── logs/          # Attack logs (ignored in Git)
